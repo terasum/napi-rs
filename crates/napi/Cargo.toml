@@ -59,7 +59,10 @@ dyn-symbols = ["napi-sys/dyn-symbols"]
 
 [dependencies]
 bitflags = "2"
-ctor = "0.2"
+
+[dependencies.ctor]
+git = "https://github.com/terasum/rust-ctor"
+rev = "9bd427b0d46e347bfeca6c1130e946de700bf441"
 
 [dependencies.anyhow]
 optional = true
