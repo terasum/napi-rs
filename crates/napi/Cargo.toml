@@ -53,9 +53,12 @@ tokio_test_util = ["tokio/test-util"]
 tokio_time = ["tokio/time"]
 
 [dependencies]
-ctor = "0.2"
 once_cell = "1.16"
 bitflags = "2"
+
+[dependencies.ctor]
+git = "https://github.com/terasum/rust-ctor"
+rev = "9bd427b0d46e347bfeca6c1130e946de700bf441"
 
 [dependencies.anyhow]
 version = "1"
